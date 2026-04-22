@@ -1,6 +1,29 @@
-import java.awt.*;
-import java.sql.*;
-import javax.swing.*;
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Component;
+import java.awt.FlowLayout;
+import java.awt.Font;
+import java.awt.GridLayout;
+import java.awt.Image;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+import javax.swing.BorderFactory;
+import javax.swing.BoxLayout;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JPasswordField;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+import javax.swing.JTextField;
+import javax.swing.SwingUtilities;
 import javax.swing.table.DefaultTableModel;
 
 // LOGIN FORM (Extra Feature)
@@ -98,7 +121,7 @@ public class LibraryManagementSys extends JFrame {
     String url = "jdbc:mysql://localhost:3306/";
     String dbName = "library_system_db";
     String username = "root";
-    String password = "Leiminaile24"; // change
+    String password = "admin"; // change
 
     Connection conn;
 
