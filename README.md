@@ -25,7 +25,7 @@ Through this project, I strengthened my skills in:
 ### **📸 Screenshots**
 **🔐 Login Portal** This screen serves as the secure entry point for the application. Developed using Java Swing, it features a clean interface requiring a valid username and password to authenticate users before granting access to the library records.
 
-<img width="839" height="514" alt="Image" src="https://github.com/user-attachments/assets/bbeb5d0c-80b9-445d-9a94-b0dcc4c1ff69" />
+![Login Portal](screenshots/JavaGUI_Login.png)
 
 **📊 Main Dashboard & Inventory Management** This is the central hub of the system, designed for efficient data handling. It includes:
 
@@ -34,4 +34,4 @@ Through this project, I strengthened my skills in:
 - **Data Management:** A dedicated Delete Record button is positioned for easy database maintenance.
 - **Database Integration:** All entries shown in the dashboard are fetched in real-time and securely stored within a MySQL database.
 
-<img width="1230" height="372" alt="Image" src="https://github.com/user-attachments/assets/274fe4a2-d808-4f2f-a1f3-f242f05f29c3" />
+![Main Dashboard](screenshots/JavaGUI_MainDashboard.png)
